@@ -1,6 +1,6 @@
 <p align="center">
 
-<img src=".github/preview.png" alt="Demonstração do projeto" width="40%" />
+<img src=".github/preview.png" alt="Demonstração do projeto" width="60%" />
 
 </p>
 
