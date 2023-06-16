@@ -1,7 +1,11 @@
 <p align="center">
+<<<<<<< HEADgit 
 <img src=".github/formulario1" alt="Demonstração do projeto" width="40%" />
 <img src=".github/formulario2.png" alt="Demonstração do projeto" width="40%" />
 <img src=".github/preview.png" alt="Demonstração do projeto" width="40%" />
+=======
+<img src=".github/preview.png" alt="Demonstração do projeto" width="50%"  height="50%" />
+>>>>>>> ac95e8693ba8660009545933bb54985cf95868eb
 </p>
 
 ## 🖥️ Projeto
