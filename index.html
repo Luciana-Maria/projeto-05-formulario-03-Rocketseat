@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MENTORIA</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700&family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="page">
+    <header>
+      <h1> AVALIE A SUA MENTORIA</h1>
+      <p>Chegou a hora de avaliar o seu mentor. Bora lá?</p>
+      <img src="assets/img1.png" alt="">
+    </header>
+
+    <form>
+
+      <fieldset><!--caixa para grupar os elementos-->
+        <div class="fieldset-wrapper">
+          <legend><span>Informações pessoais</span></legend>  <!--titulo do formulario-->
+          
+          <div class="divisao"> <!-- usei essa classe para da espaçamento entre os elementos-->
+
+            <div class="input-wrapper">
+              <label for="nome">Nome</label><!-- serve para campos do formulario/acessibilidade-->
+              <input type="text" id="nome" /><!--type do input=tipo de entrada de  dados (texto)  -->
+            </div>
+
+            <div class="input-wrapper">
+              <label for="event-name">Sobrenome</label><!---->
+              <input type="text" id="event-name"/>
+            </div>
+          
+            <div class="input-wrapper">
+              <label for="event-email">E-mail <span>(Digite um e-mail válido)</span></label>
+              <input type="text" id="event-email"/>
+            </div>
+          </div>    
+      </fieldset>
+
+      <fieldset>
+        <div class="fieldset-wrapper">
+        <legend>Informações mentor</legend>
+        <div class="divisao">
+          <div class="input-wrapper">
+            <label for="event-nome">Selecione que foi  seu mentor<span>(só o primeiro nome)</span></label>
+            <input type="nome" id="event-nome" />
+          </div>
+
+          <div class="input-wrapper">
+            <label for="event-info">Feedback sobre o mentor</label>
+            <textarea id="event-info"></textarea> <!-- cria uma area para texto-->
+          </div>
+
+          <div class="checkbox-wrapper">
+            <input type="checkbox" id="event-private" />
+            <label for="event-private">Todas as minhas dúvidas foram esclarecidas durante a mentoria.</label>
+          </div>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <div class="fieldset-wrapper">
+          <legend>Agendando próxima mentoria</legend>
+
+        <div class="divisao">
+          <div class="col-3">
+            <div class="input-wrapper">
+              <label for="event-date">Data</label>
+              <input type="date" id="event-date" />
+            </div>
+          
+            <div class="input-wrapper">
+              <label for="event-begin">Das</label>
+              <input type="time" id="event-begin" />
+            </div>
+    
+            <div class="input-wrapper">
+              <label for="event-end">Até</label>
+              <input type="time" id="event-end" />
+            </div>
+          </div>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+    
+    <footer>
+      <input class="button" type="submit" value="Salvar evento">
+    </footer>
+  
+</body>
+</html>
